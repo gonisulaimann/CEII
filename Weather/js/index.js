@@ -47,3 +47,5 @@ const generateWeatherHtml = function (data) {
 const init = function () {
   getAndRenderWeatherData();
 };
+
+init();

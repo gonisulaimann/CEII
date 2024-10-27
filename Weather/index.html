@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Widget</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+      .main-con {
+        margin: 10px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        max-width: 300px;
+        width: 100%;
+        text-align: center;
+      }
+      .con-header {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px;
+        font-size: 1.2em;
+      }
+      .con-content {
+        padding: 20px;
+      }
+      .heading-degree {
+        font-size: 2.5em;
+        margin: 0;
+      }
+      .weather-cloudy {
+        font-size: 1.2em;
+        color: #555;
+        margin: 10px 0;
+      }
+      .weather-image img {
+        max-width: 100%;
+        height: auto;
+      }
+      @media (max-width: 600px) {
+        .main-con {
+          max-width: 100%;
+        }
+        .heading-degree {
+          font-size: 2em;
+        }
+      }
+    </style>
+    <script type="module" src="./js/index.js" defer></script>
+  </head>
+  <body>
+    <div class="main-main-con"></div>
+  </body>
+</html>
